@@ -1,5 +1,5 @@
-# values: 8.2, 8.3
-ARG PHP_VERSION=8.3
+# values: 8.2, 8.3, 8.4
+ARG PHP_VERSION=8.4
 
 FROM ghcr.io/esfahanahan/php-alpine:${PHP_VERSION}-pgsql
 
